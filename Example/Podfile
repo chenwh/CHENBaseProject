@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CHENBaseProject_Example' do
+  pod 'CHENBaseProject', :path => '../'
+
+  target 'CHENBaseProject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
