@@ -1,0 +1,6 @@
+framework module CHENBaseProject {
+  umbrella header "CHENBaseProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

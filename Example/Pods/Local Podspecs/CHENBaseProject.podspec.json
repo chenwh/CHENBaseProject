@@ -1,0 +1,22 @@
+{
+  "name": "CHENBaseProject",
+  "version": "0.1.0",
+  "summary": "A short description of CHENBaseProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenwh198807@yeah.net/CHENBaseProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenwh198807@yeah.net": "wenhao1.chen@midea.com"
+  },
+  "source": {
+    "git": "https://github.com/chenwh198807@yeah.net/CHENBaseProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CHENBaseProject/Classes/**/*"
+}
