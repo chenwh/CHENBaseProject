@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHENBaseProject'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '新建项目中常用的基础类，项目有一定量的时候.'
 
 

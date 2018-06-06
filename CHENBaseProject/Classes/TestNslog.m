@@ -1,14 +1,14 @@
 //
-//  TestPodObject.m
+//  TestNslog.m
 //  CHENBaseProject
 //
 //  Created by Midea on 2018/6/6.
 //
 
-#import "TestPodObject.h"
+#import "TestNslog.h"
 
-@implementation TestPodObject
-+ (void) NSGOLString{
+@implementation TestNslog
++ (void) testNslog;{
     NSLog(@"chenwenhao");
 }
 @end

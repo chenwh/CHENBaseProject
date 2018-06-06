@@ -10,8 +10,8 @@
 		0D5C7E5D7CDF2C53CAE40CF7CF7DE4F9 /* CHENBaseProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 122322F298545BE603A04D5441A5E349 /* CHENBaseProject-dummy.m */; };
 		3EE6F9E00525C97DE3914AA21DF384CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3FAC652F95A553610D7DFFBDC340F638 /* Pods-CHENBaseProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B923B38609CC0E3F37510B5B702C0 /* Pods-CHENBaseProject_Tests-dummy.m */; };
-		492A70A220C7D8F900E47C5A /* TestPodObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 492A70A020C7D8F900E47C5A /* TestPodObject.h */; };
-		492A70A320C7D8F900E47C5A /* TestPodObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 492A70A120C7D8F900E47C5A /* TestPodObject.m */; };
+		492A70A620C7E45C00E47C5A /* TestNslog.h in Headers */ = {isa = PBXBuildFile; fileRef = 492A70A420C7E45C00E47C5A /* TestNslog.h */; };
+		492A70A720C7E45C00E47C5A /* TestNslog.m in Sources */ = {isa = PBXBuildFile; fileRef = 492A70A520C7E45C00E47C5A /* TestNslog.m */; };
 		50E711D5EFC28CE3111D98E68B22E52A /* CHENBaseProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76FA2AA27944AD6EE90C237F2536FCC /* CHENBaseProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61EA2E12620CE57C8608C4C505976E8F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CE592F4CAA84ACFFC35D5CAF0A585FF2 /* ReplaceMe.m */; };
 		7F8082A468D2F132D484B1EA285D1AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -49,8 +49,8 @@
 		292744697298F6550AAEB00C3AAB0125 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		384DAEDE7A5E015C1C0656AA5E42495C /* Pods-CHENBaseProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHENBaseProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F72F7276AC65976D9E3E4A0D219A0C2 /* Pods-CHENBaseProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHENBaseProject_Example.modulemap"; sourceTree = "<group>"; };
-		492A70A020C7D8F900E47C5A /* TestPodObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPodObject.h; sourceTree = "<group>"; };
-		492A70A120C7D8F900E47C5A /* TestPodObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPodObject.m; sourceTree = "<group>"; };
+		492A70A420C7E45C00E47C5A /* TestNslog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestNslog.h; path = CHENBaseProject/Classes/TestNslog.h; sourceTree = "<group>"; };
+		492A70A520C7E45C00E47C5A /* TestNslog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestNslog.m; path = CHENBaseProject/Classes/TestNslog.m; sourceTree = "<group>"; };
 		495459F18689359A385F04108FAE13AE /* Pods-CHENBaseProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHENBaseProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		51AA1816AFB0693EA1E4F40EFC596B8E /* Pods-CHENBaseProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHENBaseProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -159,8 +159,8 @@
 				CE592F4CAA84ACFFC35D5CAF0A585FF2 /* ReplaceMe.m */,
 				1A22F58E57D3BB25FA6D76CAEB80B66B /* Pod */,
 				92F2AA9BF9DE054286BCB66A8F37F725 /* Support Files */,
-				492A70A020C7D8F900E47C5A /* TestPodObject.h */,
-				492A70A120C7D8F900E47C5A /* TestPodObject.m */,
+				492A70A420C7E45C00E47C5A /* TestNslog.h */,
+				492A70A520C7E45C00E47C5A /* TestNslog.m */,
 			);
 			name = CHENBaseProject;
 			path = ../..;
@@ -240,8 +240,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492A70A620C7E45C00E47C5A /* TestNslog.h in Headers */,
 				50E711D5EFC28CE3111D98E68B22E52A /* CHENBaseProject-umbrella.h in Headers */,
-				492A70A220C7D8F900E47C5A /* TestPodObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,9 +366,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492A70A320C7D8F900E47C5A /* TestPodObject.m in Sources */,
 				0D5C7E5D7CDF2C53CAE40CF7CF7DE4F9 /* CHENBaseProject-dummy.m in Sources */,
 				61EA2E12620CE57C8608C4C505976E8F /* ReplaceMe.m in Sources */,
+				492A70A720C7E45C00E47C5A /* TestNslog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
